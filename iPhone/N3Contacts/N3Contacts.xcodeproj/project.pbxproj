@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1238125418C44EBD001E3FE3 /* N3NativeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238125118C44EBD001E3FE3 /* N3NativeAction.m */; };
+		1238125518C44EBD001E3FE3 /* N3Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238125318C44EBD001E3FE3 /* N3Pinyin.m */; };
+		1238125818C44ED6001E3FE3 /* JavascriptBridgeURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238125618C44ED6001E3FE3 /* JavascriptBridgeURLCache.m */; };
+		123812A918C45585001E3FE3 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238128C18C45585001E3FE3 /* GTMNSDictionary+URLArguments.m */; };
+		123812AA18C45585001E3FE3 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238128C18C45585001E3FE3 /* GTMNSDictionary+URLArguments.m */; };
+		123812AB18C45585001E3FE3 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238128E18C45585001E3FE3 /* GTMNSString+URLArguments.m */; };
+		123812AC18C45585001E3FE3 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238128E18C45585001E3FE3 /* GTMNSString+URLArguments.m */; };
+		123812AD18C45585001E3FE3 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129118C45585001E3FE3 /* NSObject+SBJson.m */; };
+		123812AE18C45585001E3FE3 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129118C45585001E3FE3 /* NSObject+SBJson.m */; };
+		123812AF18C45585001E3FE3 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129418C45585001E3FE3 /* SBJsonParser.m */; };
+		123812B018C45585001E3FE3 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129418C45585001E3FE3 /* SBJsonParser.m */; };
+		123812B118C45585001E3FE3 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129618C45585001E3FE3 /* SBJsonStreamParser.m */; };
+		123812B218C45585001E3FE3 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129618C45585001E3FE3 /* SBJsonStreamParser.m */; };
+		123812B318C45585001E3FE3 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129818C45585001E3FE3 /* SBJsonStreamParserAccumulator.m */; };
+		123812B418C45585001E3FE3 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129818C45585001E3FE3 /* SBJsonStreamParserAccumulator.m */; };
+		123812B518C45585001E3FE3 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129A18C45585001E3FE3 /* SBJsonStreamParserAdapter.m */; };
+		123812B618C45585001E3FE3 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129A18C45585001E3FE3 /* SBJsonStreamParserAdapter.m */; };
+		123812B718C45585001E3FE3 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129C18C45585001E3FE3 /* SBJsonStreamParserState.m */; };
+		123812B818C45585001E3FE3 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129C18C45585001E3FE3 /* SBJsonStreamParserState.m */; };
+		123812B918C45585001E3FE3 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129E18C45585001E3FE3 /* SBJsonStreamWriter.m */; };
+		123812BA18C45585001E3FE3 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238129E18C45585001E3FE3 /* SBJsonStreamWriter.m */; };
+		123812BB18C45585001E3FE3 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 123812A018C45585001E3FE3 /* SBJsonStreamWriterAccumulator.m */; };
+		123812BC18C45585001E3FE3 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 123812A018C45585001E3FE3 /* SBJsonStreamWriterAccumulator.m */; };
+		123812BD18C45585001E3FE3 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 123812A218C45585001E3FE3 /* SBJsonStreamWriterState.m */; };
+		123812BE18C45585001E3FE3 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 123812A218C45585001E3FE3 /* SBJsonStreamWriterState.m */; };
+		123812BF18C45585001E3FE3 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 123812A418C45585001E3FE3 /* SBJsonTokeniser.m */; };
+		123812C018C45585001E3FE3 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 123812A418C45585001E3FE3 /* SBJsonTokeniser.m */; };
+		123812C118C45585001E3FE3 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 123812A618C45585001E3FE3 /* SBJsonUTF8Stream.m */; };
+		123812C218C45585001E3FE3 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 123812A618C45585001E3FE3 /* SBJsonUTF8Stream.m */; };
+		123812C318C45585001E3FE3 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 123812A818C45585001E3FE3 /* SBJsonWriter.m */; };
+		123812C418C45585001E3FE3 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 123812A818C45585001E3FE3 /* SBJsonWriter.m */; };
+		1266A20418C0396D00B68928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A20318C0396D00B68928 /* Foundation.framework */; };
+		1266A20618C0396D00B68928 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A20518C0396D00B68928 /* CoreGraphics.framework */; };
+		1266A20818C0396D00B68928 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A20718C0396D00B68928 /* UIKit.framework */; };
+		1266A20E18C0396E00B68928 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1266A20C18C0396E00B68928 /* InfoPlist.strings */; };
+		1266A21018C0396E00B68928 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1266A20F18C0396E00B68928 /* main.m */; };
+		1266A21418C0396E00B68928 /* N3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1266A21318C0396E00B68928 /* N3AppDelegate.m */; };
+		1266A21718C0396E00B68928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1266A21518C0396E00B68928 /* Main.storyboard */; };
+		1266A21A18C0396E00B68928 /* N3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1266A21918C0396E00B68928 /* N3ViewController.m */; };
+		1266A21C18C0396E00B68928 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1266A21B18C0396E00B68928 /* Images.xcassets */; };
+		1266A22318C0396E00B68928 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A22218C0396E00B68928 /* XCTest.framework */; };
+		1266A22418C0396E00B68928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A20318C0396D00B68928 /* Foundation.framework */; };
+		1266A22518C0396E00B68928 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A20718C0396D00B68928 /* UIKit.framework */; };
+		1266A22D18C0396E00B68928 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1266A22B18C0396E00B68928 /* InfoPlist.strings */; };
+		1266A22F18C0396E00B68928 /* N3ContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1266A22E18C0396E00B68928 /* N3ContactsTests.m */; };
+		1266A24618C03F3200B68928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A20318C0396D00B68928 /* Foundation.framework */; };
+		1266A24B18C03F3200B68928 /* N3AddressBook.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1266A24A18C03F3200B68928 /* N3AddressBook.h */; };
+		1266A24D18C03F3200B68928 /* N3AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1266A24C18C03F3200B68928 /* N3AddressBook.m */; };
+		1266A25318C03F3200B68928 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A22218C0396E00B68928 /* XCTest.framework */; };
+		1266A25418C03F3200B68928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A20318C0396D00B68928 /* Foundation.framework */; };
+		1266A25518C03F3200B68928 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A20718C0396D00B68928 /* UIKit.framework */; };
+		1266A25818C03F3200B68928 /* libN3AddressBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A24518C03F3200B68928 /* libN3AddressBook.a */; };
+		1266A25E18C03F3200B68928 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1266A25C18C03F3200B68928 /* InfoPlist.strings */; };
+		1266A26018C03F3200B68928 /* N3AddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1266A25F18C03F3200B68928 /* N3AddressBookTests.m */; };
+		1266A26718C03F7A00B68928 /* libN3AddressBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A24518C03F3200B68928 /* libN3AddressBook.a */; };
+		1266A26A18C03F8100B68928 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A26818C03F8100B68928 /* AddressBook.framework */; };
+		1266A26B18C03F8100B68928 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266A26918C03F8100B68928 /* AddressBookUI.framework */; };
+		1266A26E18C043CF00B68928 /* N3Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1266A26D18C043CF00B68928 /* N3Person.m */; };
+		1266A27118C0568E00B68928 /* N3MultiValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1266A27018C0568E00B68928 /* N3MultiValue.m */; };
+		1266A27818C07E3500B68928 /* N3AddressBookFrame.h in Sources */ = {isa = PBXBuildFile; fileRef = 1266A27718C07DC800B68928 /* N3AddressBookFrame.h */; };
+		1266A27B18C07ECA00B68928 /* N3Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 1266A27A18C07ECA00B68928 /* N3Record.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1266A22618C0396E00B68928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1266A1F818C0396D00B68928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1266A1FF18C0396D00B68928;
+			remoteInfo = N3Contacts;
+		};
+		1266A25618C03F3200B68928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1266A1F818C0396D00B68928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1266A24418C03F3200B68928;
+			remoteInfo = N3AddressBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1266A24318C03F3200B68928 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1266A24B18C03F3200B68928 /* N3AddressBook.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1238125018C44EBD001E3FE3 /* N3NativeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N3NativeAction.h; sourceTree = "<group>"; };
+		1238125118C44EBD001E3FE3 /* N3NativeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N3NativeAction.m; sourceTree = "<group>"; };
+		1238125218C44EBD001E3FE3 /* N3Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N3Pinyin.h; sourceTree = "<group>"; };
+		1238125318C44EBD001E3FE3 /* N3Pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N3Pinyin.m; sourceTree = "<group>"; };
+		1238125618C44ED6001E3FE3 /* JavascriptBridgeURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavascriptBridgeURLCache.m; sourceTree = "<group>"; };
+		1238125718C44ED6001E3FE3 /* JavascriptBridgeURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavascriptBridgeURLCache.h; sourceTree = "<group>"; };
+		1238128A18C45585001E3FE3 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		1238128B18C45585001E3FE3 /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		1238128C18C45585001E3FE3 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		1238128D18C45585001E3FE3 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		1238128E18C45585001E3FE3 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		1238129018C45585001E3FE3 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		1238129118C45585001E3FE3 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		1238129218C45585001E3FE3 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		1238129318C45585001E3FE3 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		1238129418C45585001E3FE3 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		1238129518C45585001E3FE3 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		1238129618C45585001E3FE3 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		1238129718C45585001E3FE3 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		1238129818C45585001E3FE3 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		1238129918C45585001E3FE3 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		1238129A18C45585001E3FE3 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		1238129B18C45585001E3FE3 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		1238129C18C45585001E3FE3 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		1238129D18C45585001E3FE3 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		1238129E18C45585001E3FE3 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		1238129F18C45585001E3FE3 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		123812A018C45585001E3FE3 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		123812A118C45585001E3FE3 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		123812A218C45585001E3FE3 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		123812A318C45585001E3FE3 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		123812A418C45585001E3FE3 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		123812A518C45585001E3FE3 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		123812A618C45585001E3FE3 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		123812A718C45585001E3FE3 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		123812A818C45585001E3FE3 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		1266A20018C0396D00B68928 /* N3Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = N3Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1266A20318C0396D00B68928 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1266A20518C0396D00B68928 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1266A20718C0396D00B68928 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1266A20B18C0396E00B68928 /* N3Contacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "N3Contacts-Info.plist"; sourceTree = "<group>"; };
+		1266A20D18C0396E00B68928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1266A20F18C0396E00B68928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1266A21118C0396E00B68928 /* N3Contacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "N3Contacts-Prefix.pch"; sourceTree = "<group>"; };
+		1266A21218C0396E00B68928 /* N3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N3AppDelegate.h; sourceTree = "<group>"; };
+		1266A21318C0396E00B68928 /* N3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N3AppDelegate.m; sourceTree = "<group>"; };
+		1266A21618C0396E00B68928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1266A21818C0396E00B68928 /* N3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N3ViewController.h; sourceTree = "<group>"; };
+		1266A21918C0396E00B68928 /* N3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N3ViewController.m; sourceTree = "<group>"; };
+		1266A21B18C0396E00B68928 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1266A22118C0396E00B68928 /* N3ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = N3ContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1266A22218C0396E00B68928 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1266A22A18C0396E00B68928 /* N3ContactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "N3ContactsTests-Info.plist"; sourceTree = "<group>"; };
+		1266A22C18C0396E00B68928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1266A22E18C0396E00B68928 /* N3ContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N3ContactsTests.m; sourceTree = "<group>"; };
+		1266A24518C03F3200B68928 /* libN3AddressBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libN3AddressBook.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1266A24918C03F3200B68928 /* N3AddressBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "N3AddressBook-Prefix.pch"; sourceTree = "<group>"; };
+		1266A24A18C03F3200B68928 /* N3AddressBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N3AddressBook.h; sourceTree = "<group>"; };
+		1266A24C18C03F3200B68928 /* N3AddressBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N3AddressBook.m; sourceTree = "<group>"; };
+		1266A25218C03F3200B68928 /* N3AddressBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = N3AddressBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1266A25B18C03F3200B68928 /* N3AddressBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "N3AddressBookTests-Info.plist"; sourceTree = "<group>"; };
+		1266A25D18C03F3200B68928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1266A25F18C03F3200B68928 /* N3AddressBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N3AddressBookTests.m; sourceTree = "<group>"; };
+		1266A26818C03F8100B68928 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		1266A26918C03F8100B68928 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		1266A26C18C043CF00B68928 /* N3Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N3Person.h; sourceTree = "<group>"; };
+		1266A26D18C043CF00B68928 /* N3Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N3Person.m; sourceTree = "<group>"; };
+		1266A26F18C0568E00B68928 /* N3MultiValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N3MultiValue.h; sourceTree = "<group>"; };
+		1266A27018C0568E00B68928 /* N3MultiValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N3MultiValue.m; sourceTree = "<group>"; };
+		1266A27618C0689400B68928 /* N3ARCSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N3ARCSupport.h; sourceTree = "<group>"; };
+		1266A27718C07DC800B68928 /* N3AddressBookFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N3AddressBookFrame.h; sourceTree = "<group>"; };
+		1266A27918C07ECA00B68928 /* N3Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N3Record.h; sourceTree = "<group>"; };
+		1266A27A18C07ECA00B68928 /* N3Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N3Record.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1266A1FD18C0396D00B68928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266A26A18C03F8100B68928 /* AddressBook.framework in Frameworks */,
+				1266A26B18C03F8100B68928 /* AddressBookUI.framework in Frameworks */,
+				1266A26718C03F7A00B68928 /* libN3AddressBook.a in Frameworks */,
+				1266A20618C0396D00B68928 /* CoreGraphics.framework in Frameworks */,
+				1266A20818C0396D00B68928 /* UIKit.framework in Frameworks */,
+				1266A20418C0396D00B68928 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266A21E18C0396E00B68928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266A22318C0396E00B68928 /* XCTest.framework in Frameworks */,
+				1266A22518C0396E00B68928 /* UIKit.framework in Frameworks */,
+				1266A22418C0396E00B68928 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266A24218C03F3200B68928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266A24618C03F3200B68928 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266A24F18C03F3200B68928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266A25318C03F3200B68928 /* XCTest.framework in Frameworks */,
+				1266A25518C03F3200B68928 /* UIKit.framework in Frameworks */,
+				1266A25818C03F3200B68928 /* libN3AddressBook.a in Frameworks */,
+				1266A25418C03F3200B68928 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1238124F18C44EBD001E3FE3 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				1238125618C44ED6001E3FE3 /* JavascriptBridgeURLCache.m */,
+				1238125718C44ED6001E3FE3 /* JavascriptBridgeURLCache.h */,
+				1238125018C44EBD001E3FE3 /* N3NativeAction.h */,
+				1238125118C44EBD001E3FE3 /* N3NativeAction.m */,
+				1238125218C44EBD001E3FE3 /* N3Pinyin.h */,
+				1238125318C44EBD001E3FE3 /* N3Pinyin.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		1238128818C45585001E3FE3 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1238128918C45585001E3FE3 /* GTM */,
+				1238128F18C45585001E3FE3 /* JSON */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		1238128918C45585001E3FE3 /* GTM */ = {
+			isa = PBXGroup;
+			children = (
+				1238128A18C45585001E3FE3 /* GTMDefines.h */,
+				1238128B18C45585001E3FE3 /* GTMNSDictionary+URLArguments.h */,
+				1238128C18C45585001E3FE3 /* GTMNSDictionary+URLArguments.m */,
+				1238128D18C45585001E3FE3 /* GTMNSString+URLArguments.h */,
+				1238128E18C45585001E3FE3 /* GTMNSString+URLArguments.m */,
+			);
+			path = GTM;
+			sourceTree = "<group>";
+		};
+		1238128F18C45585001E3FE3 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				1238129018C45585001E3FE3 /* NSObject+SBJson.h */,
+				1238129118C45585001E3FE3 /* NSObject+SBJson.m */,
+				1238129218C45585001E3FE3 /* SBJson.h */,
+				1238129318C45585001E3FE3 /* SBJsonParser.h */,
+				1238129418C45585001E3FE3 /* SBJsonParser.m */,
+				1238129518C45585001E3FE3 /* SBJsonStreamParser.h */,
+				1238129618C45585001E3FE3 /* SBJsonStreamParser.m */,
+				1238129718C45585001E3FE3 /* SBJsonStreamParserAccumulator.h */,
+				1238129818C45585001E3FE3 /* SBJsonStreamParserAccumulator.m */,
+				1238129918C45585001E3FE3 /* SBJsonStreamParserAdapter.h */,
+				1238129A18C45585001E3FE3 /* SBJsonStreamParserAdapter.m */,
+				1238129B18C45585001E3FE3 /* SBJsonStreamParserState.h */,
+				1238129C18C45585001E3FE3 /* SBJsonStreamParserState.m */,
+				1238129D18C45585001E3FE3 /* SBJsonStreamWriter.h */,
+				1238129E18C45585001E3FE3 /* SBJsonStreamWriter.m */,
+				1238129F18C45585001E3FE3 /* SBJsonStreamWriterAccumulator.h */,
+				123812A018C45585001E3FE3 /* SBJsonStreamWriterAccumulator.m */,
+				123812A118C45585001E3FE3 /* SBJsonStreamWriterState.h */,
+				123812A218C45585001E3FE3 /* SBJsonStreamWriterState.m */,
+				123812A318C45585001E3FE3 /* SBJsonTokeniser.h */,
+				123812A418C45585001E3FE3 /* SBJsonTokeniser.m */,
+				123812A518C45585001E3FE3 /* SBJsonUTF8Stream.h */,
+				123812A618C45585001E3FE3 /* SBJsonUTF8Stream.m */,
+				123812A718C45585001E3FE3 /* SBJsonWriter.h */,
+				123812A818C45585001E3FE3 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		1266A1F718C0396D00B68928 = {
+			isa = PBXGroup;
+			children = (
+				1238128818C45585001E3FE3 /* Libraries */,
+				1266A20918C0396D00B68928 /* N3Contacts */,
+				1266A22818C0396E00B68928 /* N3ContactsTests */,
+				1266A24718C03F3200B68928 /* N3AddressBook */,
+				1266A25918C03F3200B68928 /* N3AddressBookTests */,
+				1266A20218C0396D00B68928 /* Frameworks */,
+				1266A20118C0396D00B68928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1266A20118C0396D00B68928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1266A20018C0396D00B68928 /* N3Contacts.app */,
+				1266A22118C0396E00B68928 /* N3ContactsTests.xctest */,
+				1266A24518C03F3200B68928 /* libN3AddressBook.a */,
+				1266A25218C03F3200B68928 /* N3AddressBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1266A20218C0396D00B68928 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1266A26818C03F8100B68928 /* AddressBook.framework */,
+				1266A26918C03F8100B68928 /* AddressBookUI.framework */,
+				1266A20318C0396D00B68928 /* Foundation.framework */,
+				1266A20518C0396D00B68928 /* CoreGraphics.framework */,
+				1266A20718C0396D00B68928 /* UIKit.framework */,
+				1266A22218C0396E00B68928 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1266A20918C0396D00B68928 /* N3Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				1266A21218C0396E00B68928 /* N3AppDelegate.h */,
+				1266A21318C0396E00B68928 /* N3AppDelegate.m */,
+				1266A21518C0396E00B68928 /* Main.storyboard */,
+				1266A21818C0396E00B68928 /* N3ViewController.h */,
+				1266A21918C0396E00B68928 /* N3ViewController.m */,
+				1266A21B18C0396E00B68928 /* Images.xcassets */,
+				1266A20A18C0396E00B68928 /* Supporting Files */,
+			);
+			path = N3Contacts;
+			sourceTree = "<group>";
+		};
+		1266A20A18C0396E00B68928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1266A20B18C0396E00B68928 /* N3Contacts-Info.plist */,
+				1266A20C18C0396E00B68928 /* InfoPlist.strings */,
+				1266A20F18C0396E00B68928 /* main.m */,
+				1266A21118C0396E00B68928 /* N3Contacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1266A22818C0396E00B68928 /* N3ContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1266A22E18C0396E00B68928 /* N3ContactsTests.m */,
+				1266A22918C0396E00B68928 /* Supporting Files */,
+			);
+			path = N3ContactsTests;
+			sourceTree = "<group>";
+		};
+		1266A22918C0396E00B68928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1266A22A18C0396E00B68928 /* N3ContactsTests-Info.plist */,
+				1266A22B18C0396E00B68928 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1266A24718C03F3200B68928 /* N3AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				1238124F18C44EBD001E3FE3 /* Web */,
+				1266A27718C07DC800B68928 /* N3AddressBookFrame.h */,
+				1266A24A18C03F3200B68928 /* N3AddressBook.h */,
+				1266A24C18C03F3200B68928 /* N3AddressBook.m */,
+				1266A26C18C043CF00B68928 /* N3Person.h */,
+				1266A26D18C043CF00B68928 /* N3Person.m */,
+				1266A26F18C0568E00B68928 /* N3MultiValue.h */,
+				1266A27018C0568E00B68928 /* N3MultiValue.m */,
+				1266A27918C07ECA00B68928 /* N3Record.h */,
+				1266A27A18C07ECA00B68928 /* N3Record.m */,
+				1266A24818C03F3200B68928 /* Supporting Files */,
+			);
+			path = N3AddressBook;
+			sourceTree = "<group>";
+		};
+		1266A24818C03F3200B68928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1266A24918C03F3200B68928 /* N3AddressBook-Prefix.pch */,
+				1266A27618C0689400B68928 /* N3ARCSupport.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1266A25918C03F3200B68928 /* N3AddressBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				1266A25F18C03F3200B68928 /* N3AddressBookTests.m */,
+				1266A25A18C03F3200B68928 /* Supporting Files */,
+			);
+			path = N3AddressBookTests;
+			sourceTree = "<group>";
+		};
+		1266A25A18C03F3200B68928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1266A25B18C03F3200B68928 /* N3AddressBookTests-Info.plist */,
+				1266A25C18C03F3200B68928 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1266A1FF18C0396D00B68928 /* N3Contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1266A23218C0396E00B68928 /* Build configuration list for PBXNativeTarget "N3Contacts" */;
+			buildPhases = (
+				1266A1FC18C0396D00B68928 /* Sources */,
+				1266A1FD18C0396D00B68928 /* Frameworks */,
+				1266A1FE18C0396D00B68928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = N3Contacts;
+			productName = N3Contacts;
+			productReference = 1266A20018C0396D00B68928 /* N3Contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1266A22018C0396E00B68928 /* N3ContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1266A23518C0396E00B68928 /* Build configuration list for PBXNativeTarget "N3ContactsTests" */;
+			buildPhases = (
+				1266A21D18C0396E00B68928 /* Sources */,
+				1266A21E18C0396E00B68928 /* Frameworks */,
+				1266A21F18C0396E00B68928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1266A22718C0396E00B68928 /* PBXTargetDependency */,
+			);
+			name = N3ContactsTests;
+			productName = N3ContactsTests;
+			productReference = 1266A22118C0396E00B68928 /* N3ContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1266A24418C03F3200B68928 /* N3AddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1266A26118C03F3200B68928 /* Build configuration list for PBXNativeTarget "N3AddressBook" */;
+			buildPhases = (
+				1266A24118C03F3200B68928 /* Sources */,
+				1266A24218C03F3200B68928 /* Frameworks */,
+				1266A24318C03F3200B68928 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = N3AddressBook;
+			productName = N3AddressBook;
+			productReference = 1266A24518C03F3200B68928 /* libN3AddressBook.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1266A25118C03F3200B68928 /* N3AddressBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1266A26418C03F3200B68928 /* Build configuration list for PBXNativeTarget "N3AddressBookTests" */;
+			buildPhases = (
+				1266A24E18C03F3200B68928 /* Sources */,
+				1266A24F18C03F3200B68928 /* Frameworks */,
+				1266A25018C03F3200B68928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1266A25718C03F3200B68928 /* PBXTargetDependency */,
+			);
+			name = N3AddressBookTests;
+			productName = N3AddressBookTests;
+			productReference = 1266A25218C03F3200B68928 /* N3AddressBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1266A1F818C0396D00B68928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = N3;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = LvYong;
+				TargetAttributes = {
+					1266A1FF18C0396D00B68928 = {
+						DevelopmentTeam = D2B5FF2C9Q;
+					};
+					1266A22018C0396E00B68928 = {
+						TestTargetID = 1266A1FF18C0396D00B68928;
+					};
+					1266A25118C03F3200B68928 = {
+						TestTargetID = 1266A1FF18C0396D00B68928;
+					};
+				};
+			};
+			buildConfigurationList = 1266A1FB18C0396D00B68928 /* Build configuration list for PBXProject "N3Contacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1266A1F718C0396D00B68928;
+			productRefGroup = 1266A20118C0396D00B68928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1266A1FF18C0396D00B68928 /* N3Contacts */,
+				1266A22018C0396E00B68928 /* N3ContactsTests */,
+				1266A24418C03F3200B68928 /* N3AddressBook */,
+				1266A25118C03F3200B68928 /* N3AddressBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1266A1FE18C0396D00B68928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266A21C18C0396E00B68928 /* Images.xcassets in Resources */,
+				1266A20E18C0396E00B68928 /* InfoPlist.strings in Resources */,
+				1266A21718C0396E00B68928 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266A21F18C0396E00B68928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266A22D18C0396E00B68928 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266A25018C03F3200B68928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266A25E18C03F3200B68928 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1266A1FC18C0396D00B68928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123812B718C45585001E3FE3 /* SBJsonStreamParserState.m in Sources */,
+				123812AF18C45585001E3FE3 /* SBJsonParser.m in Sources */,
+				123812B518C45585001E3FE3 /* SBJsonStreamParserAdapter.m in Sources */,
+				123812A918C45585001E3FE3 /* GTMNSDictionary+URLArguments.m in Sources */,
+				123812B318C45585001E3FE3 /* SBJsonStreamParserAccumulator.m in Sources */,
+				1266A21A18C0396E00B68928 /* N3ViewController.m in Sources */,
+				1266A21018C0396E00B68928 /* main.m in Sources */,
+				123812BD18C45585001E3FE3 /* SBJsonStreamWriterState.m in Sources */,
+				123812B918C45585001E3FE3 /* SBJsonStreamWriter.m in Sources */,
+				123812BB18C45585001E3FE3 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				1266A21418C0396E00B68928 /* N3AppDelegate.m in Sources */,
+				123812BF18C45585001E3FE3 /* SBJsonTokeniser.m in Sources */,
+				123812AD18C45585001E3FE3 /* NSObject+SBJson.m in Sources */,
+				123812AB18C45585001E3FE3 /* GTMNSString+URLArguments.m in Sources */,
+				123812B118C45585001E3FE3 /* SBJsonStreamParser.m in Sources */,
+				123812C118C45585001E3FE3 /* SBJsonUTF8Stream.m in Sources */,
+				123812C318C45585001E3FE3 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266A21D18C0396E00B68928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266A22F18C0396E00B68928 /* N3ContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266A24118C03F3200B68928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123812BE18C45585001E3FE3 /* SBJsonStreamWriterState.m in Sources */,
+				123812B218C45585001E3FE3 /* SBJsonStreamParser.m in Sources */,
+				1238125818C44ED6001E3FE3 /* JavascriptBridgeURLCache.m in Sources */,
+				123812AE18C45585001E3FE3 /* NSObject+SBJson.m in Sources */,
+				1266A27818C07E3500B68928 /* N3AddressBookFrame.h in Sources */,
+				123812AA18C45585001E3FE3 /* GTMNSDictionary+URLArguments.m in Sources */,
+				1266A27B18C07ECA00B68928 /* N3Record.m in Sources */,
+				123812BA18C45585001E3FE3 /* SBJsonStreamWriter.m in Sources */,
+				1266A24D18C03F3200B68928 /* N3AddressBook.m in Sources */,
+				123812BC18C45585001E3FE3 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				1266A26E18C043CF00B68928 /* N3Person.m in Sources */,
+				123812C218C45585001E3FE3 /* SBJsonUTF8Stream.m in Sources */,
+				123812C018C45585001E3FE3 /* SBJsonTokeniser.m in Sources */,
+				123812C418C45585001E3FE3 /* SBJsonWriter.m in Sources */,
+				1266A27118C0568E00B68928 /* N3MultiValue.m in Sources */,
+				1238125518C44EBD001E3FE3 /* N3Pinyin.m in Sources */,
+				123812B018C45585001E3FE3 /* SBJsonParser.m in Sources */,
+				123812B618C45585001E3FE3 /* SBJsonStreamParserAdapter.m in Sources */,
+				1238125418C44EBD001E3FE3 /* N3NativeAction.m in Sources */,
+				123812B818C45585001E3FE3 /* SBJsonStreamParserState.m in Sources */,
+				123812B418C45585001E3FE3 /* SBJsonStreamParserAccumulator.m in Sources */,
+				123812AC18C45585001E3FE3 /* GTMNSString+URLArguments.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266A24E18C03F3200B68928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1266A26018C03F3200B68928 /* N3AddressBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1266A22718C0396E00B68928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1266A1FF18C0396D00B68928 /* N3Contacts */;
+			targetProxy = 1266A22618C0396E00B68928 /* PBXContainerItemProxy */;
+		};
+		1266A25718C03F3200B68928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1266A24418C03F3200B68928 /* N3AddressBook */;
+			targetProxy = 1266A25618C03F3200B68928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1266A20C18C0396E00B68928 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1266A20D18C0396E00B68928 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1266A21518C0396E00B68928 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1266A21618C0396E00B68928 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1266A22B18C0396E00B68928 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1266A22C18C0396E00B68928 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1266A25C18C03F3200B68928 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1266A25D18C03F3200B68928 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1266A23018C0396E00B68928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1266A23118C0396E00B68928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1266A23318C0396E00B68928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N3Contacts/N3Contacts-Prefix.pch";
+				INFOPLIST_FILE = "N3Contacts/N3Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4EB9A069-70B4-4625-878D-13B4FC2F7410";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1266A23418C0396E00B68928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N3Contacts/N3Contacts-Prefix.pch";
+				INFOPLIST_FILE = "N3Contacts/N3Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4EB9A069-70B4-4625-878D-13B4FC2F7410";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1266A23618C0396E00B68928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/N3Contacts.app/N3Contacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N3Contacts/N3Contacts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "N3ContactsTests/N3ContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1266A23718C0396E00B68928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/N3Contacts.app/N3Contacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N3Contacts/N3Contacts-Prefix.pch";
+				INFOPLIST_FILE = "N3ContactsTests/N3ContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		1266A26218C03F3200B68928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/N3AddressBook.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N3AddressBook/N3AddressBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1266A26318C03F3200B68928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/N3AddressBook.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N3AddressBook/N3AddressBook-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1266A26518C03F3200B68928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/N3Contacts.app/N3Contacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N3AddressBook/N3AddressBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "N3AddressBookTests/N3AddressBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1266A26618C03F3200B68928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/N3Contacts.app/N3Contacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "N3AddressBook/N3AddressBook-Prefix.pch";
+				INFOPLIST_FILE = "N3AddressBookTests/N3AddressBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1266A1FB18C0396D00B68928 /* Build configuration list for PBXProject "N3Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1266A23018C0396E00B68928 /* Debug */,
+				1266A23118C0396E00B68928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1266A23218C0396E00B68928 /* Build configuration list for PBXNativeTarget "N3Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1266A23318C0396E00B68928 /* Debug */,
+				1266A23418C0396E00B68928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1266A23518C0396E00B68928 /* Build configuration list for PBXNativeTarget "N3ContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1266A23618C0396E00B68928 /* Debug */,
+				1266A23718C0396E00B68928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1266A26118C03F3200B68928 /* Build configuration list for PBXNativeTarget "N3AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1266A26218C03F3200B68928 /* Debug */,
+				1266A26318C03F3200B68928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1266A26418C03F3200B68928 /* Build configuration list for PBXNativeTarget "N3AddressBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1266A26518C03F3200B68928 /* Debug */,
+				1266A26618C03F3200B68928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1266A1F818C0396D00B68928 /* Project object */;
+}
