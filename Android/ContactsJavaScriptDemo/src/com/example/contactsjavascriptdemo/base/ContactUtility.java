@@ -9,8 +9,10 @@ import java.util.HashMap;
 
 import com.alibaba.fastjson.JSON;
 
+import android.content.AsyncQueryHandler;
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
+import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.ContactsContract;
@@ -36,6 +38,7 @@ public class ContactUtility {
      * @return
      */
     public static String getAllContactDisplaysJSON(ContentResolver contentResolver) {
+
         // Obtain all ContactDisplay objects from database and sort them
         ArrayList<ContactDisplay> list = getAllContactDisplays(contentResolver);
         Collections.sort(list);
@@ -89,6 +92,13 @@ public class ContactUtility {
     }
 
     private static ArrayList<ContactDisplay> getAllContactDisplays(ContentResolver contentResolver) {
+
+        AsyncQueryHandler asyncQuery = new AsyncQueryHandler(contentResolver) {
+            protected void onQueryComplete(int token, Object cookie, Cursor cursor) {
+
+            }
+        };
+
         Cursor cursor = contentResolver.query(ContactsContract.Contacts.CONTENT_URI, null, null, null, null);
         ArrayList<ContactDisplay> list = new ArrayList<ContactDisplay>();
         if (cursor.getCount() > 0) {
